@@ -2,5 +2,6 @@
 
 
 	.banner-title {
-text-align: center; 
+	width: 100%; /*set to 100 so that text-align takes effect*/
+	text-align: center; 
 }
