@@ -8,8 +8,8 @@ body {
 	line-height: 1.5; /*stole this from erikbern's site*/
 	padding-left: 5%;
 	padding-right: 5%;
-	display:grid;
-	grid-template-columns: 50%; 
+	grid-template-columns: 20% 40% 20%; 
+	grid-template-rows: 50%; 
 	align-items: center;
 }
 
@@ -17,11 +17,18 @@ a {
 	text-decoration: none; 
 	color: gray;
 }
+
+
 h1 {
- 	font-family: "Trebuchet","sans-serif";
+ /*fenagle with the font family*/
 }
 
-
+.nav {
+	display:grid;
+	grid-template-columns: 50%; 
+	grid-template-rows: 50%; 
+	align-items: center;
+}
 
 .banner-title {
 	width: 100%; /*set to 100 so that text-align takes effect*/
