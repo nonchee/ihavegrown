@@ -1,13 +1,15 @@
 
 html {
-	font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
+	/*font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Crimson Text', serif;
+	font-family: 'Josefin Slab', serif;*/
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
 	line-height: 1.5; /*stole this from erikbern's site*/
 	padding-left: 5%;
 	padding-right: 5%;
-
 }
 
 a {
@@ -35,6 +37,8 @@ h1 {
 
 
 .container {
+	font-family: 'EB Garamond', serif;
+
 	display: grid; /*i might regret this later*/
 	grid-template-columns: [left] 20% [center-left] 40% [center-right] 20% [right]; 
 	grid-template-rows: [top] 10% [content-start] auto [bottom]; 
