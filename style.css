@@ -51,8 +51,12 @@ h1 {
 }
 
 .nav-placeholder {
+  	transition: opacity .5s ease-in-out;
+   	-moz-transition: opacity .5s ease-in-out;
+   	-webkit-transition: opacity .5s ease-in-out;
 	grid-column: left / center-left;
 	grid-row: content-start / bottom ;
+
 }
 
 .header {
