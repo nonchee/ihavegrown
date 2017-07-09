@@ -4,13 +4,10 @@ html {
 }
 
 body {
-	display: grid; /*i might regret this later*/
 	line-height: 1.5; /*stole this from erikbern's site*/
 	padding-left: 5%;
 	padding-right: 5%;
-	grid-template-columns: 20% 40% 20%; 
-	grid-template-rows: 50%; 
-	align-items: center;
+
 }
 
 a {
@@ -39,4 +36,18 @@ h1 {
 .coming-soon {
  	font-style: italic;
 	color: gray;
+}
+
+
+.container {
+	display: grid; /*i might regret this later*/
+	grid-template-columns: [left] 20% [center-left] 40% [center-right] 20% [right]; 
+	grid-template-rows: [top] 20% [content-start] auto [bottom]; 
+	align-items: center;
+
+}
+
+.item .content {
+	grid-column-start: center left / center-right;
+	grid-row-start: content-start / bottom;
 }
