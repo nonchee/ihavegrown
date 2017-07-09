@@ -1,5 +1,7 @@
 
-
+html {
+	    font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
+}
 
 	.banner-title {
 	width: 100%; /*set to 100 so that text-align takes effect*/
