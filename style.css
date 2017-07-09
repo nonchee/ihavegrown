@@ -8,6 +8,9 @@ body {
 	line-height: 1.5; /*stole this from erikbern's site*/
 	padding-left: 5%;
 	padding-right: 5%;
+	display:grid;
+	grid-template-columns: 50%; 
+	align-items: center;
 }
 
 a {
