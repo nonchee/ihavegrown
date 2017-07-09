@@ -45,11 +45,6 @@ h1 {
 .nav {
 	grid-column: left / center-left;
 	grid-row: content-start / bottom ;
-
-	display:grid;
-	grid-template-columns: 50%; 
-	grid-template-rows: 50%; 
-	align-items: center;
 }
 
 .item .content {
