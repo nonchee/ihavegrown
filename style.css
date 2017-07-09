@@ -50,4 +50,6 @@ h1 {
 .item .content {
 	grid-column-start: center left / center-right;
 	grid-row-start: content-start / bottom;
+	  transition: height 0.66s ease-out;
+
 }
