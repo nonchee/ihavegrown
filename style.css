@@ -1,9 +1,15 @@
 
 html {
-	    font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
+	font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
 }
 
-	.banner-title {
+.banner-title {
 	width: 100%; /*set to 100 so that text-align takes effect*/
 	text-align: center; 
+}
+
+
+.coming-soon {
+	text-style: italic;
+	color: gray;
 }
