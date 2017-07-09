@@ -43,8 +43,8 @@ h1 {
 .container {
 
 	display: grid; /*i might regret this later*/
-	grid-template-columns:  12 [left] 20% [center-left] auto [center-right] 25% [right]; 
-	grid-template-rows: [top] 22% [content-start] auto [bottom]; 
+	grid-template-columns:  12% [left] 20% [center-left] auto [center-right] 25% [right]; 
+	grid-template-rows: [top] 28% [content-start] auto [bottom]; 
 	align-items: top;
 
 }
