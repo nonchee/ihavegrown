@@ -41,7 +41,6 @@ h1 {
 
 
 .container {
-	font-family: 'EB Garamond', serif;
 
 	display: grid; /*i might regret this later*/
 	grid-template-columns: [left] 20% [center-left] 40% [center-right] 20% [right]; 
@@ -51,6 +50,8 @@ h1 {
 }
 
 .nav-placeholder {
+	 opacity: 0.0;
+
   	transition: opacity .5s ease-in-out;
    	-moz-transition: opacity .5s ease-in-out;
    	-webkit-transition: opacity .5s ease-in-out;
