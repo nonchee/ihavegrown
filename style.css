@@ -20,12 +20,7 @@ h1 {
  /*fenagle with the font family*/
 }
 
-.nav {
-	display:grid;
-	grid-template-columns: 50%; 
-	grid-template-rows: 50%; 
-	align-items: center;
-}
+
 
 .banner-title {
 	width: 100%; /*set to 100 so that text-align takes effect*/
@@ -47,9 +42,26 @@ h1 {
 
 }
 
-.item .content {
-	grid-column-start: center left / center-right;
-	grid-row-start: content-start / bottom;
-	  transition: height 0.66s ease-out;
+.nav {
+	grid-column: left / center-left;
+	grid-row: content-start / bottom ;
 
+	display:grid;
+	grid-template-columns: 50%; 
+	grid-template-rows: 50%; 
+	align-items: center;
 }
+
+.item .content {
+	grid-column: center left / center-right;
+	grid-row: content-start / bottom;
+}
+
+
+
+
+
+
+
+
+
