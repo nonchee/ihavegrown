@@ -101,7 +101,7 @@ h1 {
 }
 
 .header {
-	grid-column: left / center-left;
+	grid-column: left / center-right;
 	grid-row: top / content-start;
 
 } 
