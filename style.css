@@ -113,13 +113,12 @@ h1 {
 }
 
 .thumb-desc {
-	font-size: 0.6em; 
+	font-size: 0.85em; 
 }
 
 .thumb-tag {
 	color: gray;
-	font-style: italic;
-	font-size: 0.4em; 
+	font-size: 0.5em; 
 }
 
 
