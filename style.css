@@ -38,7 +38,7 @@ h1 {
 	display: grid; /*i might regret this later*/
 	grid-template-columns: [left] 20% [center-left] 40% [center-right] 20% [right]; 
 	grid-template-rows: [top] 10% [content-start] auto [bottom]; 
-	align-items: center;
+	align-items: top;
 
 }
 
@@ -49,7 +49,7 @@ h1 {
 
 .header {
 	grid-column: left / center-left;
-	grid-column: top / content-start;
+	grid-row: top / content-start;
 
 } 
 
