@@ -3,6 +3,12 @@ html {
 	font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
 }
 
+body {
+	display: grid; /*i might regret this later*/
+}
+
+
+
 .banner-title {
 	width: 100%; /*set to 100 so that text-align takes effect*/
 	text-align: center; 
@@ -10,6 +16,6 @@ html {
 
 
 .coming-soon {
-	text-style: italic;
+ 	font-style: italic;
 	color: gray;
 }
