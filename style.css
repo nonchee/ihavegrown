@@ -5,6 +5,9 @@ html {
 
 body {
 	display: grid; /*i might regret this later*/
+	line-height: 1.5; /*stole this from erikbern's site*/
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 }
 
 
