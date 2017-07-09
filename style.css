@@ -42,7 +42,7 @@ h1 {
 
 }
 
-.nav {
+.nav-placeholder {
 	grid-column: left / center-left;
 	grid-row: content-start / bottom ;
 }
