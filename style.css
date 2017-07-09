@@ -112,6 +112,16 @@ h1 {
 	grid-row: content-start / bottom;
 }
 
+.thumb-desc {
+	font-size: 0.6em; 
+}
+
+.thumb-tag {
+	color: gray;
+	font-style:italic;
+	font-size: 0.4em; 
+}
+
 
 
 
